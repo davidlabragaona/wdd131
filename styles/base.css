@@ -50,6 +50,7 @@ nav ul li a:hover {
 
 main {
     width: 80%;
+    max-width: 80%;
     margin: auto;
     display: grid;
     column-gap: 1em;
