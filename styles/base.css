@@ -1,0 +1,143 @@
+:root {
+    --arg-lightblue: #75AADB; /* Cerúleo */
+    --arg-yellow: #FCBF49; /* Amarillo Dorado*/
+    --arg-white: white; /* Blanco */
+    --arg-brown: #843511; /* Castaño */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    /*border: 1px solid black;*/
+}
+
+body {
+    min-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: var(--arg-lightblue);
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+	align-items: center;
+    justify-content: space-between;
+    background-color: navy;
+}
+
+nav ul li{
+    flex: 1 1 auto;
+    padding: .5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--arg-white);
+}
+
+nav ul li a:hover {
+    color: var(--arg-yellow);
+    border-bottom: 2px var(--arg-yellow) solid;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    column-gap: 1em;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr auto 1fr;
+}
+
+main h1 {
+    text-align: center;
+    grid-row: 1;
+    grid-column: span 5;
+    padding: 1rem 0;
+}
+
+#course-title {
+    padding: 1rem;
+    font-size: 2rem;
+    display: block;
+}
+
+.card {
+    border: 2px solid var(--arg-lightblue);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card h2 {
+    text-align: center;
+    background-color:  var(--arg-lightblue);
+}
+
+.card h3 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.card p {
+    padding: .5rem;
+    line-height: 1.8;
+}
+
+.card ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 2rem;
+    line-height: 300%;
+}
+
+#about {
+    grid-column: 1 / 4;
+}
+
+#resources {
+    grid-column: 4 / 6;
+}
+
+#flag-cont {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    padding: 1rem .5rem;
+    float: left;
+}
+
+#flag {
+    width: 80%;
+    border: 1px var(--arg-lightblue) solid;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
+
+.right {
+    float: right;
+    margin: 0 .8rem;
+}
+
+footer {
+    background-color: var(--arg-lightblue);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+footer p {
+    margin: .5rem;
+}
