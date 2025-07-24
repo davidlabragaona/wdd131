@@ -1,0 +1,15 @@
+@media screen and (min-width: 600px) {
+    main {
+        min-width: 800px;
+        width: 800px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 25px;
+        place-items: center;
+    }
+
+    main h1 {
+        grid-row: span 1;
+    }
+    
+}
+
