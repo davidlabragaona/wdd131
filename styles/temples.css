@@ -9,12 +9,13 @@ body {
     background-color: aliceblue;
 }
 
-#title {
+header h1 {
     font-size: 2rem;
     color: white;
 }
 
-main h1, h2 {
+main h2 {
+    margin-top: 1rem;
     text-align: center;
 }
 
