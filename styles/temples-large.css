@@ -1,15 +1,39 @@
+
 @media screen and (min-width: 600px) {
     main {
-        min-width: 800px;
-        width: 800px;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        grid-gap: 25px;
+        max-width: 800px;
+        margin: 0 auto;
+        grid-template-rows: 2fr 1fr auto;
+        /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+        grid-template-columns: 1fr 1fr 1fr;
         place-items: center;
     }
 
-    main h1 {
-        grid-row: span 1;
+    header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+    nav ul {
+		justify-content: flex-end;
+		flex-direction: row;
+	}
+	nav a {
+		flex: 1 1 100%;
+        display: block;
+	}
+
+    main h1, h2 {
+        grid-column: span 3;
     }
-    
+
+    figure {
+        width: 100%;
+    }
+
+    #menu {
+        display: none;
+    }
 }
 

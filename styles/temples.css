@@ -2,54 +2,69 @@
     margin: 0;
     padding: 0;
     font-family: Roboto;
-    /*border: 1px solid black;*/
+    /*border: 1px solid lightgray;*/
+}
+
+body {
+    background-color: aliceblue;
+}
+
+#title {
+    font-size: 2rem;
+    color: white;
+}
+
+main h1, h2 {
+    text-align: center;
+}
+
+header {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    color: black;
+    background-color: darkblue;
+}
+
+header, main {
+    margin: 0 auto;
 }
 
 main {
-    margin: 0 auto;
+    width: 100%;
     display: grid;
+    gap: 1rem;
     grid-template-columns: 1fr;
 }
 
-main h1 {
-    grid-row: span 1;
-}
-
-nav {
-    display: grid;
-}
-
 nav ul {
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-	align-items: center;
-    justify-content: space-between;
-    background-color: navy;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
 }
 
-nav ul li{
-    flex: 1 1 auto;
-    padding: .5rem;
+nav a {
+	display: none;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: larger;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: white
-}
-
-nav ul li a:hover {
-    color: yellow;
-    border-bottom: 2px yellow solid;
+nav a:hover {
+	background-color: #eee;
+	color: #000;
 }
 
 figure {
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
 }
 
 figure img {
     width: 100%;
+    margin: 0 auto;
 }
 
 figcaption {
@@ -57,22 +72,30 @@ figcaption {
 }
 
 footer {
+    text-align: center;
+    margin: 1rem auto 0;
     background-color: lightblue;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin: auto;
-    text-align: center;
+    padding: .5rem;
 }
 
-footer p {
-    margin: .5rem;
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+ 	position: absolute;
+	top: 1rem;
+	right: 1rem;
+    color: white;
 }
 
-#album {
-    text-align: center;
-    width: 100%;
-    margin: auto;
-    display: block;
-    font-size: 3rem;
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+.open a {
+	display: block;
 }
