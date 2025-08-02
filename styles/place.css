@@ -1,0 +1,100 @@
+:root {
+    --bord: 1px solid lightgray;
+    --mag-1: #d21034;
+    --gre-1: #007849;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    /*border: var(--bord);*/
+}
+
+section:first-child {
+    border-top: 4px solid var(--mag-1);
+}
+
+img {
+    width: 100%;
+}
+
+.icon {
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    height: 3rem;
+    background-color: var(--mag-1);
+    margin: auto;
+    vertical-align: middle;
+    border-bottom: 15px solid var(--gre-1);
+    padding: 2rem;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: .5rem;
+}
+
+.col {
+    text-align: left;
+}
+
+.col:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+footer {
+    height: 3rem;
+    text-align: center;
+    background-color: var(--mag-1);
+    color: white;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 700px) {
+    main {
+        background-color: aliceblue;
+    }
+
+    h2 {
+        padding: 2rem;
+        background-color: rgba(0, 100, 0, 0.5);
+    }
+
+    section {
+        position: absolute;
+        left: 1rem;
+        top: 9rem;
+        background-color: rgb(255, 255, 255, .6);
+    }
+
+    .weather {
+        position: absolute;
+        top: 15rem;
+        left: 70%;
+        width: 300px;
+    }
+
+    .icon {
+        position: absolute;
+        top: 3rem;
+        left: 30%;
+    }
+}
