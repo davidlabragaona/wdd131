@@ -113,3 +113,11 @@ footer {
 .res-grid img {
     width: 100%;
 }
+
+.res-grid section {
+    margin-top: 1.5rem;
+}
+
+.res-grid span {
+        color: navy;
+    }
