@@ -1,0 +1,122 @@
+:root {
+    --c1: #128ede;;
+    --c2: navy;
+    --accent: #faa346;
+    --button: #222; 
+    --bg: #fbfbfd;
+    --card: #fff;
+    --muted: #6b7280;
+    --success: #10b981;
+    --f1: 'Roboto', Sans-serif;
+    --f2: 'Lora', serif;
+}
+
+* {
+    font-family: var(--f1);
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid lightgray;*/
+}
+
+html, body {
+    height: 100%;
+    line-height:1.45;
+    background-color: var(--bg);
+}
+
+h1 {
+    border-bottom: 2px var(--accent) solid;
+}
+
+h2, h3 {
+    font-family: var(--f2);
+    color: var(--c1);
+    padding-top: 1rem;
+}
+
+header {
+    background-color: var(--c1);
+    color: var(--card);
+    padding: 2rem;
+}
+
+section {
+    padding: 2rem 3rem 0;
+}
+
+section.card {
+    background: var(--card);
+    border-radius: 10px;
+    margin: 18px;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.2);
+}
+
+ul {
+    padding: 1rem 2rem;
+}
+
+li {
+    padding: 0.5rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--accent);
+    color: var(--button);
+    height: 3rem;
+    padding: 1rem 0;
+    margin: 1rem 0 0;
+    width: 100%;
+}
+
+.lora {
+    font-family: 'Lora', serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.c-cont {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.rect {
+    width: 120px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.rect .color {
+    height: 48px;
+}
+
+.c-cont .meta {
+    padding: 8px;
+    font-size: 0.9rem;
+    background:#fff;
+}
+
+.primary {
+    background-color: var(--c1);
+}
+
+.secondary {
+    background-color: navy;
+}
+
+.accent {
+    background-color: var(--accent);
+}
+
+.button {
+    background-color: var(--button);
+}
