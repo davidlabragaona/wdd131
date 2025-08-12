@@ -120,3 +120,9 @@ footer {
 .button {
     background-color: var(--button);
 }
+
+.grid-child {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}

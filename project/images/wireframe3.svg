@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="wireframe3.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.53543895"
+     inkscape:cx="395.00302"
+     inkscape:cy="467.84045"
+     inkscape:window-width="1440"
+     inkscape:window-height="876"
+     inkscape:window-x="1920"
+     inkscape:window-y="21"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#808080;stroke-width:0.47022;stroke-miterlimit:4.6"
+       id="rect234"
+       width="285.03732"
+       height="198.18401"
+       x="6.7364779"
+       y="5.4609938" />
+    <rect
+       style="fill:none;stroke:#808080;stroke-width:0.502496;stroke-miterlimit:4.6"
+       id="rect344"
+       width="284.77039"
+       height="22.562674"
+       x="6.8405032"
+       y="5.4931455" />
+    <rect
+       style="fill:none;stroke:#808080;stroke-width:0.551417;stroke-miterlimit:4.6"
+       id="rect346"
+       width="186.93346"
+       height="68.111366"
+       x="16.772865"
+       y="39.105389" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.54577px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#b3b3b3;stroke:none;stroke-width:0.37812;stroke-miterlimit:4.6"
+       x="28.125721"
+       y="20.312487"
+       id="text428"
+       transform="scale(1.1265546,0.88766227)"><tspan
+         sodipodi:role="line"
+         id="tspan426"
+         style="fill:#b3b3b3;stroke:none;stroke-width:0.37812"
+         x="28.125721"
+         y="20.312487">Title</tspan></text>
+    <rect
+       style="fill:none;stroke:#808080;stroke-width:0.37812;stroke-miterlimit:4.6"
+       id="rect430"
+       width="14.920223"
+       height="9.3421011"
+       x="10.488572"
+       y="12.035353" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.54577px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#b3b3b3;stroke:none;stroke-width:0.37812;stroke-miterlimit:4.6"
+       x="19.743555"
+       y="53.169422"
+       id="text428-6"
+       transform="scale(1.1265546,0.88766227)"><tspan
+         sodipodi:role="line"
+         id="tspan426-7"
+         style="fill:#b3b3b3;stroke:none;stroke-width:0.37812"
+         x="19.743555"
+         y="53.169422">Fishtank Name</tspan></text>
+    <g
+       id="g980"
+       transform="matrix(1.6099788,0,0,1.2685736,141.82755,-83.046603)"
+       style="stroke:#808080">
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.332507;stroke-miterlimit:4.6"
+         id="rect348"
+         width="41.659397"
+         height="25.500658"
+         x="42.412136"
+         y="124.15983" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#b3b3b3;stroke:none;stroke-width:0.264583;stroke-miterlimit:4.6"
+         x="44.847195"
+         y="130.29781"
+         id="text563"><tspan
+           sodipodi:role="line"
+           id="tspan561"
+           style="stroke-width:0.264583;stroke:none;fill:#b3b3b3"
+           x="44.847195"
+           y="130.29781">Water cycle:</tspan><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.264583;stroke:none;fill:#b3b3b3"
+           x="44.847195"
+           y="135.1485"
+           id="tspan569">Data:</tspan><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.264583;stroke:none;fill:#b3b3b3"
+           x="44.847195"
+           y="139.99921"
+           id="tspan565">Temp:</tspan><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.264583;stroke:none;fill:#b3b3b3"
+           x="44.847195"
+           y="144.8499"
+           id="tspan567">pH:</tspan></text>
+    </g>
+    <g
+       id="g972"
+       transform="matrix(1.6099788,0,0,1.2685736,70.546076,-118.82526)"
+       style="stroke:#808080">
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.33898;stroke-miterlimit:4.6"
+         id="rect348-3"
+         width="43.308186"
+         height="25.494186"
+         x="85.951553"
+         y="124.27441" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#cccccc;stroke:none;stroke-width:0.264583;stroke-miterlimit:4.6"
+         x="88.367432"
+         y="129.25336"
+         id="text563-5"><tspan
+           sodipodi:role="line"
+           id="tspan561-3"
+           style="fill:#cccccc;stroke:none;stroke-width:0.264583"
+           x="88.367432"
+           y="129.25336">Count:</tspan><tspan
+           sodipodi:role="line"
+           style="fill:#cccccc;stroke:none;stroke-width:0.264583"
+           x="88.367432"
+           y="134.10405"
+           id="tspan567-2">Food:</tspan></text>
+    </g>
+    <rect
+       style="fill:none;stroke:#cccccc;stroke-width:1.28001;stroke-miterlimit:4.6"
+       id="rect348-9"
+       width="260.21231"
+       height="60.501247"
+       x="16.439999"
+       y="114.25525" />
+    <rect
+       style="fill:none;stroke:#808080;stroke-width:0.349128;stroke-miterlimit:4.6"
+       id="rect344-1"
+       width="284.92953"
+       height="10.885581"
+       x="6.489789"
+       y="192.91161" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.54577px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#b3b3b3;stroke:none;stroke-width:0.37812;stroke-miterlimit:4.6"
+       x="120.92102"
+       y="226.32193"
+       id="text718"
+       transform="scale(1.1265546,0.88766227)"><tspan
+         sodipodi:role="line"
+         id="tspan716"
+         style="stroke-width:0.37812;stroke:none;fill:#b3b3b3"
+         x="120.92102"
+         y="226.32193">Footer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.54577px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#b3b3b3;stroke:none;stroke-width:0.37812;stroke-miterlimit:4.6"
+       x="19.298567"
+       y="139.95399"
+       id="text563-2"
+       transform="scale(1.1265546,0.88766227)"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.37812;stroke:none;fill:#b3b3b3"
+         x="19.298567"
+         y="139.95399"
+         id="tspan567-3">Social feed</tspan></text>
+    <rect
+       style="fill:none;stroke:#b3b3b3;stroke-width:2.84909;stroke-miterlimit:4.6"
+       id="rect430-6"
+       width="166.32437"
+       height="47.579445"
+       x="24.267296"
+       y="54.042965" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.54577px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#b3b3b3;stroke:none;stroke-width:0.37812;stroke-miterlimit:4.6"
+       x="71.765259"
+       y="88.064148"
+       id="text795"
+       transform="scale(1.1265546,0.88766227)"><tspan
+         sodipodi:role="line"
+         id="tspan793"
+         style="stroke-width:0.37812;stroke:none;fill:#b3b3b3"
+         x="71.765259"
+         y="88.064148">img</tspan></text>
+  </g>
+</svg>
