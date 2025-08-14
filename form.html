@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
     <script src="scripts/form.js" defer></script>
 </head>
 <body>
@@ -50,8 +51,8 @@
         </fieldset>
 
         <fieldset>
-            <label>Your Name <span>(Optional)</span></label>
-            <input type="name" id="name"/>
+            <label for="name">Your Name <span>(Optional)</span></label>
+            <input id="name" name="text" type="text" />
         </fieldset>
         
         <input type="submit" value="Review Product"></input>
