@@ -14,11 +14,11 @@ function saveData(fish) {
         data['clown']++;
     else
         data['cardinal']++;
-    localStorage.setItem('fish', JSON.stringify(data));
+    localStorage.setItem('fishdata', JSON.stringify(data));
 }
 
 function getFishData() {
-    let data = localStorage.getItem('fish');
+    let data = localStorage.getItem('fishdata');
     if (data === null)
         return {gold: 0, clown: 0, cardinal: 0};
     else
