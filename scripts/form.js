@@ -2,6 +2,7 @@ const today = new Date();
 const year = document.querySelector("#currentyear");
 const lastUpdate = document.querySelector("#lastModified");
 
+const productBox = document.querySelector("#pname");
 const products = [
   {
     id: "fc-1888",
@@ -29,6 +30,13 @@ const products = [
     averagerating: 5.0
   }
 ];
+
+products.forEach(x => {
+  const p = document.createElement('option');
+  p.value = x.id;
+  p.textContent = x.name;
+  productBox.appendChild(p);
+});
 
 year.textContent = today.getFullYear();
 lastUpdate.textContent = `Last modification: ${document.lastModified}`;

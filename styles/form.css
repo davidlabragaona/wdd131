@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', 'Open Sans', sans-serif;
+    border: 1px solid lightcoral;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: lightblue;
+}
+
+fieldset {
+    border: none;
+    margin: 1rem;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rating label {
+    text-align: center;
+}
+
+.features label {
+    display: block;
+}
+
+
+footer {
+    text-align: center;
+}

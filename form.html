@@ -6,31 +6,38 @@
     <title>Product Review Form</title>
     <meta name="description" content="WDD 131 Product Review Form">
     <meta name="author" content="David Labra Gaona">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer></script>
 </head>
 <body>
-    <h1>Product Review</h1>
+    <header>
+        <h1>Product Review</h1>
+    </header>
     <form method="get" action="review.html">
-        <label>Product Name
+        <fieldset>
+            <legend>Product Name</legend>
             <select id="pname" name="pname" required>
                 <option disabled selected>Select a Product...</option>
             </select>
-        </label>
-        <fieldset>
-            <label>&star;<input id="oneStar" type="radio" name="rate" required/></label>
-            <label>&star;&star;<input id="twoStar" type="radio" name="rate" required/></label>
-            <label>&star;&star;&star;<input id="threeStar" type="radio" name="rate" required/></label>
-            <label>&star;&star;&star;&star;<input id="fourStar" type="radio" name="rate" required/></label>
-            <label>&star;&star;&star;&star;&star;<input id="fiveStar" type="radio" name="rate" required/></label>
+        </fieldset>
+        <fieldset class="rating">
+            <legend>Overall Rating</legend>
+            <label>&star;<br><input id="oneStar" type="radio" name="rate" required/></label>
+            <label>&star;&star;<br><input id="twoStar" type="radio" name="rate" required/></label>
+            <label>&star;&star;&star;<br><input id="threeStar" type="radio" name="rate" required/></label>
+            <label>&star;&star;&star;&star;<br><input id="fourStar" type="radio" name="rate" required/></label>
+            <label>&star;&star;&star;&star;&star;<br><input id="fiveStar" type="radio" name="rate" required/></label>
         </fieldset>
         
-
-        <label>Date of Installation<input type="date" id="date" name="date" required/></label>
-
-        <p>Which features did you find useful in the product?<br>(Check all that apply)</p>
-
         <fieldset>
+            <label>Date of Installation<br><input type="date" id="date" name="date" required/></label>
+        </fieldset>
+
+        <fieldset class="features">
+            <legend>Which features did you find useful in the product?<br>(Check all that apply)</legend>
             <label><input id="durability" name="durability" value="durability" type="checkbox"/>Durability</label>
             <label><input id="ease" name="ease" value="ease" type="checkbox"/>Ease of Use</label>
             <label><input id="performance" name="performance" value="performance" type="checkbox"/>Performance</label>
@@ -38,11 +45,16 @@
         </fieldset>
 
         <fieldset>
-            <label>Written Review <span>(Optional)</span><textarea id="review" name="review" value=""></textarea></label>
+            <label>Written Review <span>(Optional)</span></label>
+            <textarea id="review" name="review" value="" rows="6"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <label>Your Name <span>(Optional)</span></label>
+            <input type="name" id="name"/>
         </fieldset>
         
-        <label>Your Name <span>(Optional)</span><input type="name" id="name"/></label>
-        <button type="submit">Post Review</button>
+        <input type="submit" value="Review Product"></input>
     </form>
     <footer>
         <p>
