@@ -44,7 +44,6 @@ fieldset {
 
 .features label {
     width: 100%;
-    vertical-align: middle;
 }
 
 input[type=checkbox] {
