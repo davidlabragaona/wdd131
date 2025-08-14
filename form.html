@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <meta name="description" content="WDD 131 Product Review Form">
+    <meta name="author" content="David Labra Gaona">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <h1>Product Review</h1>
+    <form method="get" action="review.html">
+        <label>Product Name
+            <select id="pname" name="pname" required>
+                <option disabled selected>Select a Product...</option>
+            </select>
+        </label>
+        <fieldset>
+            <label>&star;<input id="oneStar" type="radio" name="rate" required/></label>
+            <label>&star;&star;<input id="twoStar" type="radio" name="rate" required/></label>
+            <label>&star;&star;&star;<input id="threeStar" type="radio" name="rate" required/></label>
+            <label>&star;&star;&star;&star;<input id="fourStar" type="radio" name="rate" required/></label>
+            <label>&star;&star;&star;&star;&star;<input id="fiveStar" type="radio" name="rate" required/></label>
+        </fieldset>
+        
+
+        <label>Date of Installation<input type="date" id="date" name="date" required/></label>
+
+        <p>Which features did you find useful in the product?<br>(Check all that apply)</p>
+
+        <fieldset>
+            <label><input id="durability" name="durability" value="durability" type="checkbox"/>Durability</label>
+            <label><input id="ease" name="ease" value="ease" type="checkbox"/>Ease of Use</label>
+            <label><input id="performance" name="performance" value="performance" type="checkbox"/>Performance</label>
+            <label><input id="design" name="design" value="design" type="checkbox"/>Design</label>
+        </fieldset>
+
+        <fieldset>
+            <label>Written Review <span>(Optional)</span><textarea id="review" name="review" value=""></textarea></label>
+        </fieldset>
+        
+        <label>Your Name <span>(Optional)</span><input type="name" id="name"/></label>
+        <button type="submit">Post Review</button>
+    </form>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> David Labra Gaona - Argentina
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
