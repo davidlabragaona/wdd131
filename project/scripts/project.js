@@ -7,6 +7,9 @@ menuButton.addEventListener("click", () => {
 });
 */
 /* -------  If we created a fishtank  ----------*/
+const temp = 78;
+const pH = 7.7;
+const oxygen = 10;
 checkForm();
 loadData();
 
@@ -35,14 +38,29 @@ function displayTank(tankdata) {
 		let main = document.querySelector('main');
 		main.innerHTML = '<section class="card"><h3>No tank defined. Please create one</h3></section>';
 	}
+	else {
+		let log = document.querySelector("#tcap");
+		if (log === null || log === undefined)
+			return;
+		log.textContent = `${tankdata.tcap}`;
+		log = document.querySelector("#ttemp");
+		log.textContent = `${temp}`;
+		log = document.querySelector("#tph");
+		log.textContent = `${pH}`;
+		log = document.querySelector("#tox");
+		log.textContent = `${oxygen}%`;
+	}
 };
 
 function displayFish(fishdata) {
 	if (fishdata === null) {
-
 	}
 	else {
-
+		let flog = document.querySelector("#fishcount");
+		if (flog === null || flog === undefined)
+			return;
+		let count = Number(fishdata['gold']) + Number(fishdata['clown']) + Number(fishdata['cardinal']);
+		flog.textContent = `${count}`;
 	}
 	
 };
@@ -50,7 +68,6 @@ function displayFish(fishdata) {
 function loadData() {
 	let tankdata = getData('tankdata');
 	let fishdata = getData('fishdata');
-	console.log(tankdata);
 	if (tankdata !== null)
 		tankdata = JSON.parse(tankdata);
 	displayTank(tankdata);

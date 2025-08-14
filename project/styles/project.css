@@ -46,6 +46,26 @@ header {
     padding: 2rem;
 }
 
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+nav a {
+	display: none;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: larger;
+}
+
+nav a:hover {
+	background-color: #eee;
+	color: #000;
+}
+
 section {
     padding: 2rem 3rem 0;
 }
@@ -158,4 +178,26 @@ form label {
 
 .choose label {
     padding: 1rem 2rem 1rem;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+ 	position: absolute;
+	top: 1rem;
+	right: 1rem;
+    color: white;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+.open a {
+	display: block;
 }

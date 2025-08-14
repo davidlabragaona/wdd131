@@ -13,14 +13,15 @@
 <body>
     <header>
         <h1>CloudQuarium</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="create.html">Create</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+            <button id="menu" aria-label="menu"></button>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Friends</a></li>
-            <li><a href="#">Shop</a></li>
-        </ul>
-    </nav>
     <main>
         <section id="fishtank-img" class="card">
             <form action="index.html">
@@ -29,9 +30,9 @@
                 <label for="tname">Tank Name</label>
                 <input type="text" id="tname" name="tname" required>
                 <label for="tcap">Capacity</label>
-                <input type="number">
+                <input type="number" id="tcap" name="tcap">
                 <label for="tsensor">Sensor</label>
-                <select name="tsensor">
+                <select name="tsensor" id="tsensor">
                     <option value="1">AIS-1</option>
                     <option value="2">AIS-2</option>
                     <option value="3">AIS-3</option>

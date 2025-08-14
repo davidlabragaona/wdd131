@@ -16,10 +16,11 @@
         <h1>CloudQuarium</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Create</a></li>
-                <li><a href="#">Shop</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="create.html">Create</a></li>
+                <li><a href="shop.html">Shop</a></li>
             </ul>
+            <button id="menu" aria-label="menu"></button>
         </nav>
     </header>
     <main>
@@ -31,21 +32,16 @@
             </picture>
         </section>
         <section class="card" id="live-data">
-            <div class="d-cont">
+            <div class="d-cont" id="log">
                 <h3>Tank data</h3>
-                <p>Capacity: 3.5gl</p>
-                <p>Water temp: 80°F</p>
-                <p>pH: 7.7</p>
-                <p>Ammonia: 0.03</p>
-                <p>Nitrite: 0.02</p>
-                <p>Nitrate: 0.01</p>
-                <p>Oxygen: 10%</p>
+                <p>Capacity: <span id="tcap"></span></p>
+                <p>Water temp: <span id="ttemp"></span></p>
+                <p>pH: <span id="tph"></span></p>
+                <p>Oxygen: <span id="tox"></span></p>
             </div>
-            <div class="d-cont">
+            <div class="d-cont" id="flog">
                 <h3>Fish data</h3>
-                <p>Count: <span id="fishCount"></span></p>
-                <ul id="fishType">
-                </ul>
+                <p>Count: <span id="fishcount"></span></p>
                 <p>Food fq: 2 times a day</p>
                 <p>Food amnt: 1ug</p>
             </div>
