@@ -1,5 +1,13 @@
 @media screen and (min-width: 600px) {
     .grid-child {
         grid-template-columns: 1fr 2fr;
-    }   
+    } 
+
+    .card {
+        width: 600px;
+    }
+    
+    form {
+        width: 600px;
+    }
 }

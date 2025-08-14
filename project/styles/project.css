@@ -9,6 +9,7 @@
     --success: #10b981;
     --f1: 'Roboto', Sans-serif;
     --f2: 'Lora', serif;
+    --b-data: 1px solid;
 }
 
 * {
@@ -22,6 +23,11 @@ html, body {
     height: 100%;
     line-height:1.45;
     background-color: var(--bg);
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
 }
 
 h1 {
@@ -125,4 +131,31 @@ footer {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
+}
+
+.d-cont {
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.d-cont h3 {
+    border-bottom:  var(--b-data) var(--accent);;
+}
+
+form {
+    display: grid;
+}
+
+form label {
+    font-family: var(--f2);
+    color: var(--c1);
+    margin-top: 1rem;
+}
+
+.choose {
+    padding: 1rem 0;
+}
+
+.choose label {
+    padding: 1rem 2rem 1rem;
 }

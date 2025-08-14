@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudQuarium</title>
+    <meta name="description" content="CloudQuarium Fishtank IoT and Social Network">
+    <meta name="author" content="David Labra Gaona">
+    <link href="styles/project.css" rel="stylesheet">
+    <link href="styles/project-large.css" rel="stylesheet">
+    <script src="scripts/project.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>CloudQuarium</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Friends</a></li>
+            <li><a href="#">Shop</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="fishtank-img" class="card">
+            <form action="index.html">
+                <label for="uname">Your Name</label>
+                <input type="text" id="uname" name="uname" required>
+                <label for="tname">Tank Name</label>
+                <input type="text" id="tname" name="tname" required>
+                <label for="tcap">Capacity</label>
+                <input type="number">
+                <label for="tsensor">Sensor</label>
+                <select name="tsensor">
+                    <option value="1">AIS-1</option>
+                    <option value="2">AIS-2</option>
+                    <option value="3">AIS-3</option>
+                    <option value="4">AIS-4</option>
+                </select>
+                <div class="choose">
+                    <input type="radio" id="tfresh"  name="ttype" value="Fresh">
+                    <label for="tfresh">Fresh Water</label>
+                    <input type="radio" id="tsalt"  name="ttype" value="Salt">
+                    <label for="tsalt">Salt Water</label>
+                </div>
+                <input type="submit" value="Create FishTank">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> David Labra Gaona - Argentina
+        </p>
+        <p id="lastModified">
+        </p>
+    </footer>
+</body>
+</html>

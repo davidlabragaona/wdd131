@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudQuarium</title>
+    <meta name="description" content="CloudQuarium Fishtank IoT and Social Network">
+    <meta name="author" content="David Labra Gaona">
+    <link href="styles/project.css" rel="stylesheet">
+    <link href="styles/project-large.css" rel="stylesheet">
+    <script src="scripts/project.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>CloudQuarium</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Create</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="fishtank-img" class="card">
+            <h2>Fishtank name</h2>
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/fishtank-large.webp">
+                <img src="images/fishtank.webp" loading="lazy" alt="Fish tank" width="400" height="240">
+            </picture>
+        </section>
+        <section class="card" id="live-data">
+            <div class="d-cont">
+                <h3>Tank data</h3>
+                <p>Capacity: 3.5gl</p>
+                <p>Water temp: 80°F</p>
+                <p>pH: 7.7</p>
+                <p>Ammonia: 0.03</p>
+                <p>Nitrite: 0.02</p>
+                <p>Nitrate: 0.01</p>
+                <p>Oxygen: 10%</p>
+            </div>
+            <div class="d-cont">
+                <h3>Fish data</h3>
+                <p>Count: <span id="fishCount"></span></p>
+                <ul id="fishType">
+                </ul>
+                <p>Food fq: 2 times a day</p>
+                <p>Food amnt: 1ug</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> David Labra Gaona - Argentina
+        </p>
+        <p id="lastModified">
+        </p>
+    </footer>
+</body>
+</html>
